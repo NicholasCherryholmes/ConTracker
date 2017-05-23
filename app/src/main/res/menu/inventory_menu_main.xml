@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--//Overflow Action Menu-->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_additem"
+        android:title="+"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_delete_all_entries"
+        android:title="Delete All Items"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_add_standard_entries_entries"
+        android:title="Add Standard Issue"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_display_appInfo"
+        android:title="About the App"
+        app:showAsAction="never"/>
+
+</menu>

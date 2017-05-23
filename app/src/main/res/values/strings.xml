@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">"Section Inventory Tracker"</string>
+
+
+    <!--Need to add leading spaces in these Strings or the first letter will be cut off-->
+    <string name="aboutDialogTitle">\ App Information</string>
+    <string name="aboutDialogMessage">\ Application created by SGT Cherryholmes\n \n 2-116th Field Artillery\n Florida National Guard\n \n Version 1\n \n Contact : david.n.cherryholmes@gmail.com</string>
+    <string name="confirmDialogOk">Ok</string>
+    <string name="locationspinnerprompt">Choose Location</string>
+    <string name="SaveItem">Save Entry</string>
+    <string name="AddPicture">Upload Picture</string>
+    <string name="emptySubtitle">Click the \'+\' Symbol to add an entry, or \'Add Standard Issue\' from the options menu at the top right.</string>
+    <string name="emptyTitle">Database is Empty</string>
+    <string name="DeleteItem">Delete Entry</string>
+    <string name="OrderItem">Order More of Item</string>
+    <string name="delete_confirm">Are you sure you want to delete the item?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="selectPicture">Select a picture</string>
+    <string name="intentType">Which would you like</string>
+    <string name="partialinput_error">You are lacking input.</string>
+    <string name="QuantityRequired">Quantity Needed</string>
+    <string name="price">Price</string>
+    <string name="sale">SALE</string>
+    <string name="noemail">No email client app installed...</string>
+
+
+    <string-array name="LocationItemArray">
+        <item>(Choose Item Location)</item>
+        <item>Section Connex</item>
+        <item>Gunner Box</item>
+        <item>On Mission</item>
+        <item>In Custody of Soldier</item>
+        <item>Supply</item>
+        <item>Maintenance</item>
+        <item>Borrowed</item>
+        <item>Unknown / Lost / Missing</item>
+    </string-array>
+
+    <string-array name="artilleryEquipmentRows">
+
+        <!--I would just like to point out how much needing a backslash before every apostrophe upset me, took me awile to solve.-->
+
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'M140 Dovetail Mount\',1,1,1,\'Gunner Box\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Breech\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Firing Mechanism\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Handspike\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Jack Strut\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'M137A2 Panoramic Sight\',1,1,1,\'Gunner Box\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'M90A3 Direct Fire Sight\',1,1,1,\'Gunner Box\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'M140 Alignment Device\',1,1,1,\'Gunner Box\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Bore Brush\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Slave Cables\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Gunner Box\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Collimator M1A2\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Spade\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Firing Pin\',1,1,1,\'Gunner Box\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Fuze Setter M27\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Fuze Setter M34\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Firing Pin Gage\',1,1,1,\'Gunner Box\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Lanyard(6 Foot)\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Lanyard(25 Foot)\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Breech Lift Handle\',1,1,1,\'Gunner Box\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Aiming Pole Lights\',2,2,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Grease Gun\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Muzzle Plug\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Aiming Pole\',3,3,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Gunner Quadrant M1A1\',1,1,1,\'Gunner Box\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Bell Rammer\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Extractor Tool\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Recock Tool\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Bore Cleaning Poles\',3,3,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Tube Lights\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Powder Thermometer\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Firing Pin Wrench\',1,1,1,\'Gunner Box\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Fuze Setter M18\',1,1,1,\'Section Connex\')</item>
+
+
+    </string-array>
+
+
+
+
+
+
+
+</resources>
