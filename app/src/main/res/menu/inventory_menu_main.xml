@@ -16,8 +16,13 @@
         app:showAsAction="never"/>
 
     <item
-        android:id="@+id/action_add_standard_entries_entries"
-        android:title="Add Standard Issue"
+        android:id="@+id/action_add_standard_entries_m119"
+        android:title="Add M119 Standard Issue"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_add_standard_entries_m777"
+        android:title="Add M777A2 Standard Issue"
         app:showAsAction="never"/>
 
     <item

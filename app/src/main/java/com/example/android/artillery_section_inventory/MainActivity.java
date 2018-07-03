@@ -61,14 +61,26 @@ public class MainActivity extends AppCompatActivity {
                 db.delete(DBhelper.TABLE_INVENTORY, null, null);
                 onStart();
                 return true;
-//Populate Standard Items, that the app is primarily designed to track.
-            case R.id.action_add_standard_entries_entries:
+//Populate Standard Items, that the app is primarily designed to track. M119
+            case R.id.action_add_standard_entries_m119:
 
-                String[] INSERT_ROWS = getResources().getStringArray(R.array.artilleryEquipmentRows);
+                String[] INSERT_ROWSm119 = getResources().getStringArray(R.array.EquipmentRowsm119);
 
 
                 for (int i = 0; i < 33; i++)
-                    db.execSQL(INSERT_ROWS[i]);
+                    db.execSQL(INSERT_ROWSm119[i]);
+                onStart();
+                return true;
+
+//                Populate M777 Items
+
+            case R.id.action_add_standard_entries_m777:
+
+                String[] INSERT_ROWSm777 = getResources().getStringArray(R.array.EquipmentRowsm777);
+
+
+                for (int i = 0; i < 69; i++)
+                    db.execSQL(INSERT_ROWSm777[i]);
                 onStart();
                 return true;
 

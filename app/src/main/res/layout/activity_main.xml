@@ -83,7 +83,7 @@
             android:layout_height="200dp"
             android:layout_centerHorizontal="true"
             android:layout_alignParentTop="true"
-            android:src="@drawable/decal53rd" />
+            android:src="@drawable/oldironsides" />
 
         <TextView
             android:id="@+id/empty_title_text"

@@ -4,7 +4,7 @@
 
     <!--Need to add leading spaces in these Strings or the first letter will be cut off-->
     <string name="aboutDialogTitle">\ App Information</string>
-    <string name="aboutDialogMessage">\ Application created by SGT Cherryholmes\n \n 2-116th Field Artillery\n Florida National Guard\n \n Version 1\n \n Contact : david.n.cherryholmes@gmail.com</string>
+    <string name="aboutDialogMessage">\ Application created by SGT Cherryholmes\n \n 2-3rd Field Artillery\n US Army\n \n Version 1\n \n Contact : n@cherryholmes.us</string>
     <string name="confirmDialogOk">Ok</string>
     <string name="locationspinnerprompt">Choose Location</string>
     <string name="SaveItem">Save Entry</string>
@@ -37,7 +37,7 @@
         <item>Unknown / Lost / Missing</item>
     </string-array>
 
-    <string-array name="artilleryEquipmentRows">
+    <string-array name="EquipmentRowsm119">
 
         <!--I would just like to point out how much needing a backslash before every apostrophe upset me, took me awile to solve.-->
 
@@ -75,6 +75,81 @@
         <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Firing Pin Wrench\',1,1,1,\'Gunner Box\')</item>
         <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Fuze Setter M18\',1,1,1,\'Section Connex\')</item>
 
+
+    </string-array>
+
+    <string-array name="EquipmentRowsm777">
+
+
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'W16 Cable\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'W3 Cable\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Chief Display\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Muzzle Velocity Sensor\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Tail Lights\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'M138A1 Elbow Telescope\',1,1,1,\'Gunner Box\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'M137A2 Panoramic Telescope\',1,1,1,\'Gunner Box\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'M154 Alignment Device\',1,1,1,\'Gunner Box\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Boresight Device(Breech)\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Boresight Device(Muzzle)\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Brush and Bag Assmbly\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Brush, Primer\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Powder Temp and Case\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Firing Mech and Case\',1,1,1,\'Gunner Box\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Telescope Case\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Vent Cleaning Tool\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Collimator\',1,1,1,\'Gunner Box\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Lanyard(6 Foot)\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Lanyard(25 Foot)\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Dog Coupler\',1,1,1,\'Gunner Box\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Aiming Pole Bag\',2,2,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Ext Socket Wrench 3/4 In\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Ext Socket Wrench 1/2 In\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'File, Taper Saw\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Fast Bar\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Bell Rammer\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Fuze Setter M27\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Fuze Setter M34\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Fuze Setter M18\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Hammer, 6lb\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Powder Thermometer\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Chamber Swab\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Socket Wrench Ratchet 1/2\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Handle, Mattock\',2,2,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Holder, Swab\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Mechanical Jack, Leveling\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Shim Leveling Kit\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Light, Aiming Post\',4,4,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Lubricating Hand Gun\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Magazine, Primer\',3,3,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Nonmetallic, Bumper\',2,2,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Magazine Primer, Stop\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Mattock\',2,2,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'NATO Adaptor\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Oiler, Hand\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Pail, Utility\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Pin, Firing(Spare)\',2,2,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Plug, Muzzle\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Post, Aiming\',4,4,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Primer, Extractor\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Punch\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Tap\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Quadrant, Gunners\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Rammer, Arty Extractor\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Rammer, Shell Assmbly\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Handle Assembly\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Rammer, Head\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Shaft, Curved\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Ratchet, Head 3/4\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Reamer, Hand\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Big Bag, Section\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Shovel\',4,4,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Solar Charger\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Stool, Breech\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Tarp\',2,2,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Tool, Obturator\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Trident Bar\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Tube, Pump Handle\',2,2,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Wheel, Third\',1,1,1,\'Section Connex\')</item>
 
     </string-array>
 
