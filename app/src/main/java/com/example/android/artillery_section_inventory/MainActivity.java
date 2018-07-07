@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
                 String[] INSERT_ROWSm119 = getResources().getStringArray(R.array.EquipmentRowsm119);
 
 
-                for (int i = 0; i < 33; i++)
+                for (int i = 0; i < 52; i++)
                     db.execSQL(INSERT_ROWSm119[i]);
                 onStart();
                 return true;

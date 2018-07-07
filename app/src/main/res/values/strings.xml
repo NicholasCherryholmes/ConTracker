@@ -39,8 +39,28 @@
 
     <string-array name="EquipmentRowsm119">
 
-        <!--I would just like to point out how much needing a backslash before every apostrophe upset me, took me awile to solve.-->
+        <!--Make sure to adjust the loop variable to match the number of entries I would just like to point out how much needing a backslash before every apostrophe upset me, took me awile to solve.-->
 
+
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Air Assault Bar\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Padlocks\',4,4,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Technical Manual -10\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Brass Hammer\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Electronic Fuze Setter\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Tarp\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Howitzer Cover\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Chief Display Computer Case\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Cable, IFS\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Cable, Assmbly, Interconnecting\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Battery Charger\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Batteries, Rechargeable\',16,16,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Battery Adapter Terminal\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Digital Sled\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Muzzle Velocity Radar\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Chief Display Computer\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Breech Lever, with both Hinges\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'W3 Cable\',1,1,1,\'Section Connex\')</item>
+        <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'W16 Cable\',1,1,1,\'Section Connex\')</item>
         <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'M140 Dovetail Mount\',1,1,1,\'Gunner Box\')</item>
         <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Breech\',1,1,1,\'Section Connex\')</item>
         <item>INSERT INTO itemList(Item_Name, Quantity_Have, Quantity_Want, ARMY_ISSUE_BOOLEAN, Location) VALUES(\'Firing Mechanism\',1,1,1,\'Section Connex\')</item>
